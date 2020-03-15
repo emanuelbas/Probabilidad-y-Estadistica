@@ -1,0 +1,22 @@
+5. El espacio muestral es el del insiso 2
+
+a. A: "en el dado sale un numero menor que 3"
+
+A = {(1,C,C),(1,C,S),(1,S,C),(1,S,S),(2,C),(2,S)}
+
+b. B: "ocurren 2 cecas"
+
+B = {(1,C,C),(3,C,C),(5,C,C)}
+
+c. Ac
+
+Ac = {(3,C,C),(3,C,S),(3,S,C),(3,S,S),(4,C),(4,S),(5,C,C),(5,C,S),(5,S,C),(5,S,S),(6,C),(6,S)}
+
+d. Ac I B
+
+Ac I B = {(3,C,C),(3,C,S),(3,S,C),(3,S,S),(4,C),(4,S),(5,C,C),(5,C,S),(5,S,C),(5,S,S),(6,C),(6,S)  , (1,C,C) }  
+
+e. A Y B
+Esto seria la intercepcion entre A y B, es decir ocurre A y tambié ocurre B
+
+A n B = {(1,C,C)}
