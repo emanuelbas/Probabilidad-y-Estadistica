@@ -1,0 +1,30 @@
+7) Si se toman 3 libros al azar de un estante que contiene 5 novelas, 
+3 libros de poemas y 1 diccionario, ¿cuál es la probabilidad de que
+a) se seleccione el diccionario?
+b) se seleccionen 2 novelas y 1 libro de poemas? 
+
+Como dice que los libros se toman al azar se entiende que la probababilidad
+de cada uno es equiprobable
+Tambien vemos que se extraen libros sin reemplazo, por lo que cada libro que
+se extrae ya no puede volver a ser extraido
+
+En este caso es dificil enumerar los elementos del espacio muestral,
+son muchos, por lo que necesitamos usar tecnicas de conteo para enumerar
+sus elementos
+El espacio muestral estaria formado por conjuntos de 3 elementos como S={{D1,P1,P2},{D1,P1,P3},{D1,N1,N2},..}
+Por ejemplo el primer conjunto indicaria que se extrajo el diccionario1, poema1 y poema2
+¿Cuantos elementos tiene S?
+Es un numero combinatorio S = (9  3) = 9! / (3! * (9-3)!) = 362880 / 6 * 720 = 84
+
+Para responder el punto a), necesitamos saber el numero de elementos A:"Se selecciona un diccionario", hay solo 3 formas de extraer un diccionario entonces #A = 3
+
+luego P(A) = #A/#S = 3/84
+
+
+En el caso de b), #B seria la cantidad resultaria de las formas en que se puede combinar
+extraer 2 novelas y extraer 1 poema, es decir:
+#B = (5  2)*(3  1)
+
+#B = ( 5!/(2!*(5-2)!) ) * ( 3!/(1!*(3-1)!) = (120 / 2*6) * ( 6 / 2) = 30
+
+Entonces dado que P(B) = #B/#S = 30 / 84

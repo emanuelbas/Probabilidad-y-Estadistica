@@ -1,0 +1,21 @@
+6. 
+
+"Dado que los elementos de S son equiprobables,
+la probabilidad de A es la cantidad de elementos de A 
+sobre cantidad de elementos de S"
+
+El simbolo # se llama "cardinal de A"
+
+a. P(A) = #A/#S 
+
+//Ya que A tiene 5 elementos, y S 36 entonces
+P(A) = 5/36 
+P(B) = 11/36
+P(C) = 12/36
+P(A I B)= 15/36
+
+Recordando..
+A = {(2,6),(3,5),(4,4),(5,3),(6,2)}
+B = {(2,1),(2,2),(2,3),(2,4),(2,5),(2,6),(1,2),(3,2),(4,2),(5,2),(6,2)}
+C = {(1,5),(1,6),(2,5),(2,6),(3,5),(3,6),(4,5),(4,6),(5,5),(5,6),(6,5),(6,6)}
+A I B = {(2,6),(3,5),(4,4),(5,3),(6,2),(2,1),(2,2),(2,3),(2,4),(2,5),(1,2),(3,2),(4,2),(5,2),(6,2)}
