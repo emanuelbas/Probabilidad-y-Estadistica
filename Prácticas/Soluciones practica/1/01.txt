@@ -1,3 +1,10 @@
+1) Un experimento implica lanzar un par de dados, uno verde y uno rojo,
+y registrar los números que salen. 
+Si x es igual al resultado en el dado verde e y es el resultado en el
+dado rojo, describa el espacio muestral S
+a) por extensión     b) por comprensión
+
+
 a. Definicion por extension
 S = {(1,1),(1,2),(1,3),(1,4),(1,5),(1,6),
 	(2,1),(2,2),(2,3),(2,4),(2,5),(2,6),

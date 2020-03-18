@@ -1,4 +1,4 @@
-4.
+4) Para el espacio muestral del ejercicio 1) liste los elementos del eventos:      a) A: “la suma de los números es mayor que 8”      b) B: “ocurre un dos en cualquiera de los dos dados”      c) C: “sale un número mayor que cuatro en el dado verde”      d) A  C      e) A  B      f) B  C 
 
 a. A = {(2,6),(3,5),(4,4),(5,3),(6,2)}
 

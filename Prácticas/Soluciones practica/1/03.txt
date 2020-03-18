@@ -1,4 +1,8 @@
-3.
+3) Se seleccionan al azar cuatro estudiantes de una clase de química y se
+clasifican como femenino o masculino.
+	a) Liste los elementos del espacio muestras S1 usando la letra F para femenino y la letra M para masculino.
+	b) Defina un segundo espacio muestral S2 donde los elementos
+representen el número de mujeres seleccionadas.
 
 a. S1 = {(F,F,F,F),(F,F,F,M),(F,F,M,F),(F,F,M,M)..(M,M,M,M)}
 b. S2 = {0,1,2,3,4}

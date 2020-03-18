@@ -1,4 +1,6 @@
-5. El espacio muestral es el del insiso 2
+5) Para el espacio muestral del ejercicio 2) liste los elementos del eventos:     a) A: “en el dado sale un número menor que 3”     b) B: “ocurren dos cecas”     c) Ac     d) Ac I B     e) A I B
+
+El palito I indica intercepcion, la c chica complemento
 
 a. A: "en el dado sale un numero menor que 3"
 

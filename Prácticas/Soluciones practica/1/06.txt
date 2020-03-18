@@ -1,4 +1,4 @@
-6. 
+6) Suponga que los dos dados del ejercicio 1) son normales. Entonces cada resultado del     espacio muestral S tienen la misma probabilidad de ocurrir (S es equiprobable).     Encuentre las siguientes probabilidades:     a) P(A) ;   b) P(B)  ;  P(C)  ; P(A I C )
 
 "Dado que los elementos de S son equiprobables,
 la probabilidad de A es la cantidad de elementos de A 
