@@ -1,0 +1,31 @@
+8) Un dado octaedro (de ocho caras) tiene el número 1 pintado en dos de sus caras, el 2
+en tres de sus caras, el 3 en dos de sus caras y el 4 en una cara. Se lanza el dado.
+Suponga que cada cara tiene la misma probabilidad de salir.   
+  
+a) Determine el espacio muestral de este experimento.
+b) Calcular la probabilidad de que salga número par.
+c) Si el dado estuviera cargado de tal forma que la cara con el 
+número 4 tuviera eldoble de probabilidad de salir que cada una de las otras siete caras    
+	c1) ¿cambiaría esto el espacio muestral? Explique.         
+	c2) ¿cambiaría esto la probabilidad de que salga número par? Explique. 
+
+a) S = {1,2,3,4}
+
+b) 
+A = "Sale el numero 1"
+B = "Sale el numero 2"
+C = "Sale el numero 3"
+D = "Sale el numero 4"
+E = "Sale un numero par"
+
+P(A) = 2/8
+P(B) = 3/8
+P(C) = 2/8
+P(D) = 1/8
+
+E = B U D (B union D)
+Entonces, P(E) = P(B) + P(D) = 1/2
+
+c) El espacio muestral no cambiaria, seguirian siendo todos los elementos que ya existen
+d) La probabilidad de que salga un numero par cambiaria, incrementar la probabilidad las probabilidades de cada elemento serian distintas
+y en particular incremtaria P(E)

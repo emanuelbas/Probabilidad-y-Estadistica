@@ -1,0 +1,24 @@
+11) Tres parejas  de casados han comprado boletos para el teatro y se 
+sientan en una fila formada por solo seis asientos. Si toman sus 
+asientos de un modo totalmente aleatorio   
+	a) ¿Cuál es la probabilidad de que Pablo y María (marido y mujer),
+se sienten en los dos asientos de la extrema izquierda?
+	b) ¿Cuál es la probabilidad de que Pablo y María terminen sentados
+ uno junto a otro?
+
+El espacio muestral S= 6! (cantidad de formas distintas en que se pueden
+sentar las personas)
+
+A: "Pablo y Maria se sienten en los dos asientos de la izquierda"
+
+Pablo y Maria se pueden sentar de dos formas distintas, intercambiando
+intercambiando entre ellos por cada una de esas 2 formas, los otros 4 pueden sentarse de 4! formas entonces
+#A = 2!4!
+
+P(A) = #A / #S = 48/720
+
+En b) la pareja se sienta junta, por lo que se toma como un bloque
+y pueden ubicarse de 5 formas distintas (por ejemplo butaca 1y2 o butaca 2y3), ademas en cada una se pueden sentar de 2 formas distintas, ese bloque se podria pensar como una sola persona y permutarla con las otras 4, entonces habrian 5! formas distintas de ubicarse
+#B = 5!*2
+
+Entonces P(B) = #B/#S = 5!*2 / 6!

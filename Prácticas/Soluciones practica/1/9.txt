@@ -1,0 +1,18 @@
+9) Se lanzan un dado normal 5 veces. Encuentre la probabilidad 
+de obtener 4 números iguales
+
+El espacio muestral tiene 6x6x6x6x6 = 6^5 elementos
+
+A: "Salen 4 numeros iguales"
+
+Imaginemos que el numero fuera 1, entonces seria 1 1 1 1 _ y luego cualquiera de los otros 5.
+Ese caso tiene 5 posibilidades mas las permutaciones. Es decir 5x5 casos
+
+De la misma forma con 2 2 2 2, etc.
+
+Hay en total 6x 5x5 casos donde el numero salen 4 numeros iguales
+
+P(A) = #A / #S = 6x5x5 / 6^5
+
+
+
