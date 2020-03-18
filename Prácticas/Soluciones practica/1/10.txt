@@ -1,0 +1,19 @@
+10) Se selecciona una carta al azar entre 50 cartas numeradas de 1 a 50.
+Hallar la probabilidad de que el número de la carta sea:
+i) divisible por 5, ii) termine en 2.
+
+S = {1,2,3,..,50}
+
+i)
+A : "Sale una carta con numero divisible por 5"
+
+#S = 50
+#A = 10
+
+P(A) = #A / #S = 1/5
+
+ii)
+B : "Sale una carta con numero que termina en 2"
+
+#B = 5
+P(B) = 5/50 = 1/10

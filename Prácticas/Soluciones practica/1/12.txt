@@ -1,0 +1,21 @@
+12) De acuerdo con un trabajo de investigación, la ubicación probable de
+las PC en una casa son:       
+	Dormitorio de adultos:	0.03
+	Dormitorio de niños:	0.15
+	Otro dormitorio:	0.14
+	Oficina o estudio:	0.40
+	Otra habitación:	0.28
+a) ¿Cuál es la probabilidad de que una PC esté en un dormitorio?
+b) ¿Cuál es la probabilidad de que una PC no esté en un dormitorio?
+
+a) X: "La PC esta en un dormitorio"
+
+A : "La PC esta en un dormitorio de adultos"
+B : "La PC esta en un dormitorio de niños"
+
+D = A U B
+P(D) = 0.03 + 0.15 = 0.17
+
+b) Dc : "La PC no esta en un dormitorio" (Complemento de D)
+
+P(Dc) = 1 - P(D) = 1 - 0.17 = 0.83
