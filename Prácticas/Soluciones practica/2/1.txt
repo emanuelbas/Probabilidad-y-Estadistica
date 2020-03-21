@@ -1,0 +1,22 @@
+1) Se lanza un par de dados normales. Hallar la probabilidad de que la suma de sus
+números sea 10 o mayor si
+      a) aparece un 5 en el primer dado
+      b) aparece un 5 en uno de los dos dados por lo menos
+
+a) 
+A: "Aparece el 5 en el primer dado"
+B: "Los dados suman 10 o mas"
+entonces
+#A = 6
+#(A n B) = 2
+
+Hayo la probabilidad de B dado A
+P(B/A) = #(A n B) / #A =  1/3
+
+b)
+C: "Aparece un 5 al menos en un dado"
+#C = 11
+(B n C) = {(5,5)(5,6)(6,5)}
+#(B n C) = 4
+
+P(C/B) = #(B n C) / #C = 3/11
