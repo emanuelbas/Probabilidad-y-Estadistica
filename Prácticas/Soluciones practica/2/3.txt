@@ -1,0 +1,10 @@
+3) Se escogen dos dígitos al azar del 1 al 9. si la suma es par, 
+hallar la probabilidad de que ambos números sean impares. 
+
+A : "La suma es par"
+#A = 25 + 16 = 41
+
+B : "Ambos son impares"
+#B = 25
+
+P(B/A) = #(B n A)/#A = 25 / 41

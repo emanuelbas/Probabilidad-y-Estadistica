@@ -1,0 +1,14 @@
+2) Se lanzan 3 monedas normales. Hallar la probabilidad de que sean todas caras si
+     a) la primera de las monedas es cara
+     b) una de las monedas es cara 
+
+R: "Sale cara en las 3"
+#R = 1
+
+A: "La primera moneda es cara"
+#A = 4
+B: "Una de las monedas es cara"
+#B = 4
+
+P(R/A) = #(R n A)/A = 1/4
+P(R/B) = #(R n B)/B = 1/4
