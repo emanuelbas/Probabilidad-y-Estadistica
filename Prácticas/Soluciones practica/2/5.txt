@@ -1,0 +1,7 @@
+5) Una clase tiene 12 niños y 4 niñas. Si se escogen 3 estudiantes de la clase al azar,
+      ¿cuál es la probabilidad de que sean todos niños? 
+
+A: "el i-esimo estudiante elegido es un nino" i=1,2,3
+Entonces la probabilidad pedida es
+
+P(A1 n A2 n A3) = P(A1)*(P(A2/A1)  * P(A3 / A1 n A2) = 12/16 * 11/15 * 10/14

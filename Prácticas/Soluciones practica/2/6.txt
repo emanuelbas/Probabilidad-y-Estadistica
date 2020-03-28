@@ -1,0 +1,20 @@
+6) Una urna contiene 3 bolas rojas y 7 blancas. Se saca una bola de la urna y se
+reemplaza por una del otro color. Se saca de la urna una segunda bola.
+      a) Hallar la probabilidad de que la segunda bola sea roja
+      b) Si ambas bolas son del mismo color,
+ ¿cuál es la probabilidad de que las dos sean blancas? 
+
+
+A: "La primer bolilla elegida es roja"
+B: "La segunda bolilla elegida es roja"
+
+P(B) aplicando teorema de la probabilidad total
+P(B) = P(B/A)*P(A) + P(B/Ac)*P(Ac) = 2/10 * 3/10 + 4/10 * 7/10
+
+b)
+
+C: "La primer bolilla es blanca"
+D: "La segunda bolilla es blanca"
+
+P((C n D)/(Cc n Dc)u(C n D))
+= 7/10 * 6/10    /   3/10 * 2/10 + 7/10 * 6/10
