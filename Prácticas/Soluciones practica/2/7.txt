@@ -1,0 +1,17 @@
+ Una ciudad tiene dos carros de bomberos que operan en forma independiente.
+La probabilidad de que un carro específico esté disponible cuando se lo necesite es 0.96.
+     a) ¿Cuál es la probabilidad de que ninguno esté disponible cuando se les necesite?
+     b) ¿Cuál es la probabilidad de que un carro de 
+bomberos esté disponible cuando se le necesite?
+
+a)
+
+A: "El carro A esta disponible" -> P(A)=0.96
+B: "El carro B esta disponible" -> P(B)=0.96
+C: "Ninguno esta disponible"
+
+P(C) = P(Ac n Bc) = P(Ac) x P(Bc)= 0,04 * 0,04 = 0,0016
+
+b)
+D: "Solo uno de los dos esta disponible"
+P(D)=P(A n Bc) = 0,96 * 0,04 = 0,384
