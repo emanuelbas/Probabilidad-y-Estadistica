@@ -1,0 +1,5 @@
+9) En una prueba de opción múltiple, un estudiante contesta una pregunta que ofrece
+       cuatro posibles respuestas, de las cuales sólo una es correcta. Suponga que la proba-
+      bilidad de que el estudiante sepa la respuesta a la pregunta es 0.8 y que conteste al      azar es 0.2
+      a) Cuál es la probabilidad de que conteste correctamente la pregunta?
+      b) Si contesta correctamente la pregunta. Cuál es la probabilidad de que realmente           sepa la respuesta correcta? 

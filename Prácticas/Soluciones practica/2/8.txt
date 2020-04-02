@@ -1,0 +1,20 @@
+8) Una caja contiene 2 caramelos de coco y 3 de chocolate.
+ Una segunda caja contiene 3 caramelos de coco, 2 caramelos de chocolate y 1 de dulce de leche.
+ Si se saca un caramelo al azar de cada caja, encuentre la probabilidad de que
+     a) ambos caramelos sean de coco.
+     b) ningún caramelo sea de coco.
+     c) los dos caramelos sean diferentes
+
+a)
+A: "Sale un caramelo de coco en caja 1" P(A) = 2/5
+B: "Sale un caramelo de coco en caja 2" P(B) = 1/2
+
+P(A n B) = P(A) x P(B) = 3/10
+
+P(Ac n Bc) = 3/5 * 1/2 = 3/10
+
+c) La unica forma de que sean iguales es coco-coco y chocolate-chocolate, asique si no es de estas formas se da que los dos caramelos son diferentes
+
+P(c-c) = P(A n B) = 3/10
+P(ch-ch) = 3/5 * 1/3 = 3/15 = 1/5
+P(Diferentes sabores) = 1 - 3/10 - 1/5
