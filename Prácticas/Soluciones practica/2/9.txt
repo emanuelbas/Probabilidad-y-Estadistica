@@ -2,4 +2,17 @@
        cuatro posibles respuestas, de las cuales sólo una es correcta. Suponga que la proba-
       bilidad de que el estudiante sepa la respuesta a la pregunta es 0.8 y que conteste al      azar es 0.2
       a) Cuál es la probabilidad de que conteste correctamente la pregunta?
-      b) Si contesta correctamente la pregunta. Cuál es la probabilidad de que realmente           sepa la respuesta correcta? 
+      b) Si contesta correctamente la pregunta. Cuál es la probabilidad de que realmente           sepa la respuesta correcta?
+
+a)
+A: "Contesta correctamente"
+B: "Sabe la respuesta"
+
+Aplicando teorema de la Probabilidad Total
+P(A) = P(A/B) * P(B) + P(A/Bc) * P(Bc)
+1 * 0,8 + 0,25 * 0,2 = 0,85
+
+b) P(B/A)
+
+Aplicando teorema de bayes
+P(B/A) = P(AnB)/P(A) = 0,8 / 0,85

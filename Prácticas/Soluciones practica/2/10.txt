@@ -1,0 +1,19 @@
+10) Se lanza cinco veces un dado normal. Hallar la probabilidad de que:
+       a) en ninguna tirada salga el 1
+       b) salga el 1 una sola vez.
+       c) salga el 1 al menos una vez. 
+
+A: "No sale 1 en la tirada i" i=1,2,3,4,5
+
+P(A1 n A2 n A3 n A4 n A5) = 5/6 * 5/6 * 5/6 * 5/6 * 5/6
+o
+#S = 6^5
+#A = 5x5x5x5x5
+#A/#S = 5 * 5 * 5 * 5 * 5 / 6 * 6 * 6 * 6 * 6
+
+B: "Sale el 1 una sola vez"
+#B = 5x5^4 (El 1 puede estar en 5 lugares, y por cada lugar van a haber 5^4 combinaciones)
+P(B) = #B/#S = 5x5^4/6^5
+
+C: "Sale el 1 al menos una vez"
+P(C) = 1 - P(Cc) = 1 - P(A) ..Cc es que nunca sale el 1
