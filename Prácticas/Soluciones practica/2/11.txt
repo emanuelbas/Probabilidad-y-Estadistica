@@ -1,0 +1,14 @@
+11) a) Si  P(A / B) = 0.4,  P(B) = 0.8  y P(A) = 0.6,
+ ¿puede decirse que los eventos A y B son independientes?
+        b)  Si, P(A / B) = 0.3 , P(B) = 0.8   y P(A) = 0.3, 
+¿puede decirse que los eventos Ac y B son independientes? 
+
+a) Para decir que dos eventos son independientes la probabilidad de uno no debe alterar al otro
+es decir P(A/B) = P(A) indicaria que A no depende de B, como son distintas se puede afirmar que
+A y B no son independientes
+
+P(Ac/B) = P(Ac)?
+Aca es importante saber que si el evento no es dependiente, su complemento tampoco
+Entonces se puede plantear que si se da
+P(A/B) = P(A) 
+Entonces A no depende de B y por lo tanto Ac tampoco
