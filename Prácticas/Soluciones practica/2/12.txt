@@ -1,0 +1,37 @@
+12) En una cierta estación de servicio, 
+	el 40% de los clientes utilizan nafta normal sin plomo,
+	35% utilizan nafta extra sin plomo,
+	y el 25% utilizan nafta premium  sin plomo.
+ De los clientes que consumen nafta normal, 
+	solo 30% llenan sus tanques, 
+	de los que consumen nafta extra, 60% llenan sus tanques,
+	en tanto que de los que usan premium,
+	50% llenan sus tanques.
+     a) ¿Cuál es la probabilidad de que el siguiente cliente pida nafta extra sin plomo y         llene su tanque?
+     b) ¿Cuál es la probabilidad de que el siguiente cliente llene el tanque?
+     c) Si el siguiente cliente llena el tanque, ¿cuál es la probabilidad de que pida nafta        normal?.
+     d) ¿Qué propiedades utiliza para resolver los incisos a), b) y c)? 
+
+P(NN) = 0.40
+P(NE) = 0.35
+P(NP) = 0.25
+P(T) = ?
+P(T/NN) = 0.30
+P(T/NE) = 0.60
+P(T/NP) = 0.50
+
+a) ** Por teorema de la multiplicacion **
+P(NE n T) = P(T/NE)*P(NE) = 0.60 * 0.35
+
+b)
+P(T) = ?
+
+** Siguiendo el teorema de probabilidad total **
+tengo que S= NN U NE U NP
+Entonces P(T) = P(T/NN)*P(NN) + P(T/NE) * P(NE) + P(T/NP)*P(NP) = 0.3 * 0.4 + 0.6 * 0.35 + 0.5 * 0.25
+
+c) P(NN/T)
+
+** Necesito aplicar teorema de bayes **
+
+P(T/NN)*P(NN)  / (P(T/NN)*P(NN) + P(T/NE)*P(NE) + P(T/NP)*P(NP)) = P(T/NN)*P(NN) / P(T)
