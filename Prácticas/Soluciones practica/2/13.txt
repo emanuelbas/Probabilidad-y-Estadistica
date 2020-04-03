@@ -1,0 +1,19 @@
+13) El 10% de los chips informáticos vendidos en el mercado son producidos por una empresa “pirata”. 
+Para un chip  “pirata” la probabilidad de que sea defectuosos es del 50% 
+mientras que si el chip no  es “pirata” la probabilidad de que sea  defectuoso desciende al 5%.
+      a) Definir los sucesos convenientes, junto con sus probabilidades.
+      b) Determinar el porcentaje total de chips defectuosos que salen al mercado.
+      c) Se compra un chip y resulta ser defectuoso. Calcular la probabilidad de que proce-          da de la empresa  “pirata”. 
+ 
+EP : "Producido por Empresa Pirata" P(EP) = 0.10
+D : "Defectuoso"
+P(D/EP) = 0.50
+P(D/EPc) = 0.05
+
+b) Buscamos P(D)
+Dado que EP U EPc = Omega y la interseccion entre ambos es vacio, entonces puedo aplicar
+** Teorema de probabilidad total **
+P(D) = P(D/EP)*P(EP)+P(D/EPc)*P(EPc)
+
+c) 
+P(EP/D) = P(D/EP)*P(EP) / P(D) = 0.05/P(D)

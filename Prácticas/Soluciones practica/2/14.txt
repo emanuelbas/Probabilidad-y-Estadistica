@@ -1,0 +1,54 @@
+14) Se utilizan dos líneas de producción para empaquetar azúcar en bolsas de 5 kg. 
+La   línea 1 produce  el doble de bolsas que la línea 2. 
+Uno por ciento de las bolsas de la línea 1 están defectuosas ya que  no cumplen con una especificación de calidad,
+mientras que 3% de las bolsas de la línea 2 están defectuosas. 
+Se elige aleatoriamente una bolsa para inspeccionarla.
+       a) ¿Cuál es la probabilidad de que provenga de la línea 1?
+       b) ¿Cuál es la probabilidad de que esté defectuosa?
+       c) Si la bolsa está defectuosa, ¿cuál es la probabilidad de que venga de la línea 1? 
+       d) Si la bolsa no está defectuosa, ¿cuál es la probabilidad de que venga de la línea 1? 
+
+a)
+
+A: "La bolsa es producida por la linea 1"
+Ac: "La bolsa es producida por la linea 2"
+
+P(A) = 2P(Ac)
+y P(Ac) + P(A) = 1
+
+Entonces
+P(A) + 1/2 P(A) = 1
+3/2 P(A) = 1
+P(A) = 1 / (3/2) = 2/3
+P(Ac) = 1/3
+
+b) D: "La bolsa esta defectuosa"
+
+P(D/A) = 0,01
+P(D/Ac) = 0,03
+P(A) = 2/3 
+P(Ac) = 1/3 
+
+Aplico teorema de la probabilidad total
+
+P(D)= P(D/A)*P(A) + P(D/Ac)*P(Ac) = 
+1/100 * 2/3 + 3/100 * 1/3
+
+2/300 + 3 / 300 = 5 / 300 = 1/60
+
+c) Si la bolsa esta defectuosa cual es la probabilidad de que venga de la linea 1?
+
+P(A/D) = P(D/A) * P(A)  /  P(D/A) * P(A) + P(D/Ac)*P(Ac) = 1/100 * 2/3  /  P(D) = 1/150  /  1/60 = 6/15 = 2/5
+
+d) Si la bolsa no está defectuosa, ¿cuál es la probabilidad de que venga de la línea 1? 
+
+P(A/Dc) = P(A n Dc) / P(Dc)
+
+P(Dc) = 1 - 1/60 = 59/60
+
+P(A n Dc) = P(Dc / A)*P(A)
+
+No conozco P(Dc/A) pero si P(D/A) = 0,01 entonces P(Dc/A) = 1-0,01 = 0,99
+
+Entonces P(A/Dc) =  0,99 * 2/3 /  59/60 = 99/100 * 2/3  / 59/60 = 198/300  / 59/60
+ 
