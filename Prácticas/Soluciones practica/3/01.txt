@@ -1,0 +1,20 @@
+1) Clasifique las siguientes variables aleatorias como discretas o continuas:
+     a) X: “el número de accidentes automovilísticos por año en la ciudad de La Plata”
+     b) Y: “el tiempo en horas que tarda en quemarse una lamparita”
+     c) Z: “la cantidad de leche en litros que una vaca específica produce anualmente”
+     d) W: “el número de huevos que una gallina pone mensualmente”
+     e) N: “el número de permisos de construcción que emiten cada mes en una ciudad”
+     f) Q: “el peso del grano producido por acre"
+
+Las discretas son conjuntos finitos o infinitos numerables:
+X, W, N
+Por ejemplo no tendría sentido en W decir que una gallina pone 20 huevos y medio, son indivisibles, pueden enumerarse
+Tampoco se puede saber a priori cuantos huevos pondrá por lo que es infinito numerable
+
+en cambio las continuas
+son variables aleatorias cuyos rangos son todos los numeros reales de un intervalo
+Es decir conjunto infinito no numerable
+En Y tendria sentido decir que 1 hora con 5 minutos, o 5 y 5 segundos
+En Z los litros también podrían dividirse como numeros reales
+Lo mismo para Q
+

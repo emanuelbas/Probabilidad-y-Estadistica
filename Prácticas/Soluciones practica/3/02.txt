@@ -1,0 +1,13 @@
+2) Un embarque de 10 automóviles extranjeros contiene 4 que tienen ligeras manchas
+de pintura. Si una agencia recibe 6 de estos automóviles al azar,
+ sea X: “nº de automóviles que la agencia compra con manchas de pintura”.
+     a) Hallar la f.d.p. de X
+     b) Determine P(X = 0) ; P(X = 2) ; P(X ≤ 2) ; P(X ≥ 2) 
+
+X: {0,1,2,3,4,5,6}
+
+
+F(X) = {
+
+
+}
