@@ -4,10 +4,12 @@ de pintura. Si una agencia recibe 6 de estos automóviles al azar,
      a) Hallar la f.d.p. de X
      b) Determine P(X = 0) ; P(X = 2) ; P(X ≤ 2) ; P(X ≥ 2) 
 
-X: {0,1,2,3,4,5,6}
+a)
+Rx = {0,1,2,3,4}
 
 
-F(X) = {
-
-
-}
+P(X=0) = (4 0)(6 6) /  (10 6)
+P(X=1) = (4 1)(6 5) /  (10 6)
+P(X=2) = (4 2)(6 4) /  (10 6)
+P(X=3) = (4 3)(6 3) /  (10 6)
+P(X=4) = (4 4)(6 2) /  (10 6)
