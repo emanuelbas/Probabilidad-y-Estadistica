@@ -1,0 +1,14 @@
+Me estan dando F.d.a
+F(X) = P(X<=x)
+
+Entonces
+P(X<=1/8) = 0,2
+P(X<=1/4) = F(1/4) = 0,9
+P(X<=5/16) = F(5/16) = 0,9 ya que 1/4 < 5/16 < 3/8
+
+d)
+Los valores del rango de la variable corresponden a los puntos de discontinuidad
+RX={1/8, 1/4, 3/8}
+Y luego tenés que calcular P(X=1/8)=F(1/8)
+P(X=1/4)= F(1/4)-F(1/8)
+P(X=3/8)=F(3/8)-F(1/4)

@@ -1,0 +1,17 @@
+2) Un embarque de 10 automóviles extranjeros contiene 4 que tienen ligeras manchas
+de pintura. Si una agencia recibe 6 de estos automóviles al azar,
+ sea X: “nº de automóviles que la agencia compra con manchas de pintura”.
+
+4) La distribución de probabilidad de X: “nº de imperfecciones por 10 metros de una     
+tela sintética en rollos continuos de ancho uniforme, está dada por:
+f(x)  0, 0.41   1, 0.37    2, 0.16     3,0.05    4, 0.01
+
+
+5) Para las variables aleatorias de los ejercicios 2) y 4) hallar E(X), E(X^2), V(X).  
+
+E(X) = Sumatoria(valor * probabilidad de que ocurra)
+
+Para 2)
+E(X) = 1 * P(X=1) + 2 * P(X=2) + 3 * P(X=3) + 4 * P(X=4)
+Para 4)
+E(X) = 1 * 0.37 + 2 * 0,16 + 3 * 0,05  + 4 * 0,01

@@ -1,0 +1,11 @@
+F(x) es 0 cuando x<0
+0.41 cuando x>=0 y x<1
+0.41 + 0.37 cuando x>=1 y x<2
+0.41 + 0.37 + 0.16  con x>=2 y x<3
+0.41 + 0.37 + 0.16 + 0.05 con x>=3 y x<4
+es 1 (la suma de todo) con x>=4
+
+b) Piden F(2) y F(3.1)
+
+F(2) corresponde a la ecuacion cuando x>=2 y x<3, es decir 0.41+0.37+0.16
+F(3.1) = 0.41 + 0.37 + 0.16 + 0.05
