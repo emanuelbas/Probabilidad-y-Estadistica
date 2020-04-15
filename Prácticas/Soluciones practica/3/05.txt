@@ -15,3 +15,15 @@ Para 2)
 E(X) = 1 * P(X=1) + 2 * P(X=2) + 3 * P(X=3) + 4 * P(X=4)
 Para 4)
 E(X) = 1 * 0.37 + 2 * 0,16 + 3 * 0,05  + 4 * 0,01
+
+E(X^2), Se averigua en la pagina 32 "Esperanza de una funcion"
+La probabilidad sigue siendo la misma pero el valor de X cambia aplicandole el cuadrado
+
+Para 2)
+E(X^2) 	= 1^2 * P(X=1^2)+ 2^2 * P(X=2^2) + 3^2 * P(X=3^2) + 4^2 * P(X=4^2)
+	= 1 * P(X=1)	+ 4 * P(X=2)     +  9  * P(X=3)   + 16  * P(X=4)
+
+Para 4)
+E(X^2) = 1^2 * 0.37 + 2^2 * 0,16 + 3^2 * 0,05 + 4^2 * 0,01
+
+
