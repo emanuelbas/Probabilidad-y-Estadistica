@@ -1,0 +1,53 @@
+Envia 100 galones
+X: "numero de tambores pedidos por cliente elegido aleatoriamente"
+x	 1	 2	 3	 4	 5 
+pX(x) 	0.4	 0.2	 0.2	 0.1	 0.1 
+
+a) E(X), V(X), desviacion standar de X
+
+E(X) = Sum1 a 5(x * p(x)) = 1 * 0.4 + 2 * 0.2 + 3 * 0.2 + 4 * 0.1 + 5 * 0.1 = 2.3
+
+ Para calcular la varianza tengo esta formula
+V(X) = E(X^2) - E(X)^2 = 7.1 - 5.29 = 1.81
+E(X)^2 = 5.29
+E(X^2) = 7.1
+
+
+E(X)^2 = 2.3^2 = 5.29
+
+E(X^2) = Sum1 a 5(x^2 * p(x)) = 1 * 0.4 + 4 * 0.2 + 9 * 0.2 + 16 * 0.1 + 25 * 0.1 = 7.1
+
+Etonces V(X) = 1.81
+
+ Para calcula la Desviacion Estandar tengo esta formula
+
+dt(X) = raiz(V(X))
+
+Entonces dt(x) = raiz(1.81) = 1.3453
+
+B. Sea Y: “número de galones ordenados”  
+b1. Hallar la f.d.p. de Y  Funcion de distribucion de probabilidad
+
+Si recordamos los clientes hacen pedidos de a 10 galones, por ejemplo pueden pedir 2 tabores de 10 galones cada uno
+Entonces podemos decir que se da esta relacion Y = 10X
+Y vemos que la funcion h(x) = 10x es lineal entonces 
+  i. El rango de valores de Y es Ry = {10 20 30 40 50}
+  ii.Para todo evento en el rango, los valores (X = x) e (Y = 10x) son iguales
+
+Entonces
+py(10) = P(Y=10) = P(X = 10/10) = P(X=1) = px(1) = 0.4
+py(20) = P(Y=20) = P(X = 20/10) = P(X=2) = px(2) = 0.2
+py(30) = P(Y=30) = P(X = 30/10) = P(X=3) = px(3) = 0.2
+py(40) = P(Y=40) = P(X = 40/10) = P(X=4) = px(4) = 0.1
+py(50) = P(Y=50) = P(X = 50/10) = P(X=5) = px(5) = 0.1
+
+b2. Hallar E(Y), V(Y) y la desviación estándar de Y. 
+
+Aplicando la propiedad E(aX+b)=a*E(X)+b
+Se que E(X) = 2.3
+entonces si quiero saber E(10X)=E(Y)
+Saco 10*2.3, E(Y) = 23
+
+V(Y) = V(10X) = 10^2 * V(X) = 100 * 1.81 = 181
+
+dt(Y) = dt(10X) = |10|dt(X) = 10*1.3454 = 134.54
